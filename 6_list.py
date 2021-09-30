@@ -1,0 +1,33 @@
+nums=[1,2,3,4,5]
+print(nums)
+print(nums[1])
+print(nums[2:])
+print(nums[-1])
+names=['sasi','kane','smith']
+print(names)
+mixed=[1,'bob',9.5]
+print(mixed)
+twoArray=[nums,names]
+print(twoArray)
+nums.append(6)
+print(nums)
+nums.insert(2,2.5)
+print(nums)
+nums.extend([7,7.5,8,9])
+print(nums)
+nums.remove(2.5)
+nums.pop()
+nums.pop(7)
+print(nums)
+del nums[5:]
+nums.append(0)
+print(nums)
+nums.sort()
+print(nums)
+print("sum : ",sum(nums))
+print("max : ",max(nums))
+print("min : ",min(nums))
+print("count(5) : ",nums.count(5))
+print("index(5) : ",nums.index(5))
+nums.clear()
+print("Empty : ",nums)
