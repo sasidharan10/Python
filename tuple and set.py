@@ -6,8 +6,11 @@ print("count(8) : ",tup.count(8))
 print("index(8) : ",tup.index(8))
 
 """
+this is a multi line comment
+
 tuples are immutable while lists are mutable
 Accessing elements in tuples is faster compared to lists as elements are immutable
+
 """
 
 #set
