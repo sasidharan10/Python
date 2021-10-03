@@ -9,3 +9,8 @@ print("sasi")
 print("sasi"+"dharan")
 print("sasi\"s","Box")  # use '\' before a character to ignore it.
 print(5*"ooo ")
+
+x=10
+y=20
+x,y=y,x  # swapping 2 elements
+print(x,"",y)

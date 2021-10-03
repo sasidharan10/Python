@@ -5,6 +5,9 @@ print(tup[0])
 print("count(8) : ",tup.count(8))
 print("index(8) : ",tup.index(8))
 
+#for making single element in tuple ',' should be added after the element to indicate it is a tuple
+tup2=(10,)
+print(tup2) 
 """
 this is a multi line comment
 
