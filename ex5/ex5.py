@@ -59,12 +59,12 @@ else:
     print("2) Food")
     d = int(input("\nEnter your choice : "))
     if d == 1:
-        f = open("{n}_ex.txt".format(n=name), "r")
+        f = open("{n}_ex.txt".format(n=name), "rt")
         print("%s's Exercise Routine : " % (name))
         print(f.read())
         f.close()
     else:
-        f = open("{n}_f.txt".format(n=name), "r")
+        f = open("{n}_f.txt".format(n=name), "rt")
         print("%s's Food Routine : " % (name))
         print(f.read())
         f.close()
