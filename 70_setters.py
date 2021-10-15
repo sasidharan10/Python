@@ -1,6 +1,3 @@
-from typing import TextIO
-
-
 class employee:
     def __init__(self,f,l) -> None:
         self.fname=f
