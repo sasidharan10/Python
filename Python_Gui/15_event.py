@@ -9,6 +9,7 @@ root.title("Event in tkinter")
 
 btn=Button(root,text="Click here")
 btn.pack()
-btn.bind("<Button>-1",showdata)
+btn.bind('<Button-1>', showdata)
+btn.bind('<Double-1>', quit)
 
 root.mainloop()
