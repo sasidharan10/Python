@@ -2,9 +2,10 @@ d1={"arg":"messi","nor":"haaland","por":"fernandez","fra":{"fwd":"mbappe","mid":
 print("d1 :",d1)
 d1["por"]="ronaldo"
 print("d1 :",d1)
-
+var="por"
 #accessing the vaues using keys
 print("d1[\"arg\"] :",d1["arg"])
+print("d1[\"por\"] :",d1[var])
 print("d1[\"arg\"][\"mid\"] :",d1["fra"]["mid"])
 
 # adding new element to dictionary
@@ -29,4 +30,5 @@ d1.pop("fra") #item with giveen key gets deleted
 d1.popitem()  # lastly added item gets deleted
 print("d1 :",d1)
 
+print(d1.get("por"))
 
