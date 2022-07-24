@@ -1,4 +1,4 @@
-print("hello world")
+print("HELLO WORLD")
 a = input("Enter a : ")
 b = input("Enter b : ")
 
