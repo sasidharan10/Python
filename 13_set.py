@@ -15,10 +15,12 @@ print(type(s2))
 print("s2 :",s2)
 
 s3=s1.union(s2)  # union
-s4=s1.union(s2)  # intersection
+s4=s1.intersection(s2)  # intersection
 s5=s1.copy()     # copy
 s5.clear()       # clear
-print("s3 :",s3)
+print("s3 (union) :",s3)
+print("s4 (intersection) :",s4)
+print("s5 :",s5)
 s3.remove(70)  # removes given element
 s3.pop()  # removes lastly added element
 print("s3 :",s3)

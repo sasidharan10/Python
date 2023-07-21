@@ -12,6 +12,8 @@ print(type(name))
 print(type(n))
 
 print("typecasting from int to string ...")
+print(str(x))
+print(str(y))
 print(str(x)+str(y))
 
 print("printing hello 5 times...")

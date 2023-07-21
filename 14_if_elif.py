@@ -1,18 +1,18 @@
 # x=int(input("Enter a number : "))
-x=10
-y=20
-if x>y :
+x = 10
+y = 20
+if x > y:
     print("X is greater")
-elif x==y :
+elif x == y:
     print("X is equal")
-else :
+else:
     print("X is lesser")
 
-list=[2,3,6,5,1,4]
-z=3
-if z in list :
+list = [2, 3, 6, 5, 1, 4]
+z = 3
+if z in list:
     print("3 is present")
-else : 
+else:
     print("3 is not present")
 
-print("9 not present in list ? :",9 not in list)
+print("9 not present in list ? :", 9 not in list)

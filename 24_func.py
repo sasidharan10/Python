@@ -13,5 +13,10 @@ sum1(5, 3)
 print(avg.__doc__)
 print("Avg : ", avg(5, 6))  # function  with return type
 
-#  doc string is the first comment of a function which gives
-#  us the info about the working of the function
+"""
+
+ doc string is the first comment of a function which gives
+ us the info about the working of the function
+
+"""
+

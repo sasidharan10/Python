@@ -11,7 +11,7 @@ twoArray = [nums, names]
 print("2D list :", twoArray)
 
 # add 1 element in last
-nums.append(6)  
+nums.append(6)
 print("nums.append(6) :", nums)
 
 # add 1 element in specified location
@@ -37,7 +37,7 @@ del nums[5:]
 nums.append(0)
 print("nums.append(0) :", nums)
 
-#sorting
+# sorting
 nums.sort()
 print("nums.sort() :", nums)
 
