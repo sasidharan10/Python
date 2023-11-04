@@ -5,6 +5,9 @@ z = -25
 
 print("abs() :", abs(z))
 print("round() :", round(y))
+print("round(5.2) :", round(5.2))
+print("round(5.5) :", round(5.5))
+print("round(5.8) :", round(5.8))
 print("math.ceil() :", math.ceil(y))
 print("math.floor() :", math.floor(y))
 print("math.pi :", math.pi)
